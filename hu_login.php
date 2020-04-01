@@ -57,9 +57,6 @@ else {
           session_start();
           $_SESSION['uemail'] = $row[hu_email];
           $_SESSION['uid'] = $row[hu_id];
-        
-// Directs user to the main page of the website
-          header("location: mainpage.html");
         }
     }
     }
